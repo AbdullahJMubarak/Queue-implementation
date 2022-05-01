@@ -4,6 +4,10 @@ typedef struct{
 int tail,front,capcity,size;
 int*items;
 } Queue;
+
+
+
+
 Queue* intialize(int n){
 Queue *q=malloc(sizeof(Queue));
 q->front=q->tail=0;
